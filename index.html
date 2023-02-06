@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lev3_10_projekt_js-vertiefung_encoder-decoder_caesar-cipher</title>
+</head>
+
+<body>
+    <form onsubmit="return false">
+        <article class="encrypt-decrypt-warp">
+            <input type="radio" name="encrypt-decrypt" id="encrypt">
+            <label for="encrypt">Verschlüsseln</label>
+            <input type="radio" name="encrypt-decrypt" id="decrypt">
+            <label for="decrypt">Entschlüsseln</label>
+        </article>
+        <label for="string">Zeichenkette:</label>
+        <input type="text" id="string">
+        <label for="key">Schlüssel:</label>
+        <input type="number" name="key" id="key">
+        <article class="output-wrap">
+            <label for="string-crypted">Ausgabe:</label>
+            <p id="string-crypted"></p>
+        </article>
+        <button id="crypt">Crypt</button>
+    </form>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
